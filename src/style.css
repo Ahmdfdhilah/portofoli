@@ -92,7 +92,7 @@ button:focus {
   font-size: 2.5rem;
 }
 .logo span{
-  color: #623686;
+  color: var(--imp-text-color);
 }
 .navbar-toggler {
   position: relative !important;
