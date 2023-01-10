@@ -32,7 +32,7 @@ function Projects() {
               isBlog={false}
               title="Personal Portofolio Website"
               description="My own personal portofolio website, created with react js"
-              ghLink="https://github.com/Ahmdfdhilah/"
+              ghLink="https://github.com/Ahmdfdhilah/portofoli"
             />
           </Col>
         </Row>
