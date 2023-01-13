@@ -88,10 +88,10 @@ button:focus {
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
 }
- .logo{
+.logo {
   font-size: 2.5rem;
 }
-.logo span{
+.logo span {
   color: var(--imp-text-color);
 }
 .navbar-toggler {
@@ -217,7 +217,7 @@ button:focus {
   animation-name: wave-animation;
   animation-duration: 2.1s;
   animation-iteration-count: infinite;
-  transform-origin: 70% 70%; 
+  transform-origin: 70% 70%;
   display: inline-block;
 }
 
@@ -227,7 +227,7 @@ button:focus {
   }
   10% {
     transform: rotate(14deg);
-  } 
+  }
   20% {
     transform: rotate(-8deg);
   }
@@ -242,7 +242,7 @@ button:focus {
   }
   60% {
     transform: rotate(0deg);
-  } 
+  }
   100% {
     transform: rotate(0deg);
   }
@@ -314,10 +314,10 @@ button:focus {
   justify-content: center !important;
   padding-top: 9em !important;
 }
-.myAvtar img{
+.myAvtar img {
   width: 300px;
   border-radius: 50%;
-  background-color:#623686;
+  background-color: rgba(119, 53, 136, 0.5);
 }
 @media (max-width: 767px) {
   .myAvtar {
