@@ -312,12 +312,13 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 5em !important;
+  background-color: #68187a;
+  border-radius: 50% 10px;
 }
 .myAvtar img {
   width: 300px;
-  border-radius: 50%;
-  background-color: rgba(119, 53, 136, 0.5);
+  filter:brightness(0.5);
 }
 @media (max-width: 767px) {
   .myAvtar {
