@@ -34,7 +34,7 @@ function Projects() {
               imgPath={flower}
               isBlog={false}
               title="Flower pop up website"
-              description="you can send it to your lover, this is quite trend in tiktok."
+              description="you can send it to anyone, this is quite trend in tiktok."
               ghLink="https://github.com/Ahmdfdhilah/Moodbooster"
             />
           </Col>

@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/profile-img.png";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -49,9 +48,6 @@ function Home2() {
                 <b className="purple"> React.js</b>
               </i>
             </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-              <img src={myImg} alt="avatar" />
           </Col>
         </Row>
         <Row>
