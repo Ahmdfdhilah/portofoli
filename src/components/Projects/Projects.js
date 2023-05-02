@@ -2,11 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import flower from "../../Assets/Projects/flower.png";
 import porto from "../../Assets/Projects/porto.png";
 import gauss from "../../Assets/Projects/gauss.png";
 import ecommerce from "../../Assets/Projects/backend.png";
-import kosjo from "../../Assets/Projects/kosjo.png";
 
 function Projects() {
   return (
@@ -29,15 +27,7 @@ function Projects() {
               ghLink="https://github.com/Ahmdfdhilah/backend__toko"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={flower}
-              isBlog={false}
-              title="Flower pop up website"
-              description="you can send it to anyone, this is quite trend in tiktok."
-              ghLink="https://github.com/Ahmdfdhilah/Moodbooster"
-            />
-          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={porto}
@@ -55,16 +45,7 @@ function Projects() {
               title="Gauss Eleminations Calculator"
               description="You can solve A system of linear equations by using gauss elimination algorithms"
               ghLink="https://github.com/Ahmdfdhilah/Gauss_Elim"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={kosjo}
-              isBlog={false}
-              title="future website for my friends"
-              description="i just bored and create a new website in case some of my friends want to build a startup project"
-              ghLink="https://github.com/Ahmdfdhilah/Kosjo"
-              demoLink="https://ahmdfdhilah.github.io/Kosjo/"
+              demoLink="https://replit.com/@AhmadFadillah16/gausselim#main.py"
             />
           </Col>
         </Row>
