@@ -468,7 +468,9 @@ button:focus {
   padding-right: 25px !important;
   height: auto !important;
 }
-
+.project-card img{
+  height: 200px !important;
+}
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
@@ -531,14 +533,44 @@ button:focus {
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
-
+.credentials-icons  {
+  font-size: 5.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  width: 600px !important;
+}
+.credentials-icons img {
+  width: 100%;
+  height: auto;
+  min-width: 200px !important; 
+}
+.credentials-icons p{
+  font-size: 1.5rem !important;
+}
 @media (max-width: 767px) {
   .tech-icons {
+    margin: 10px !important;
+  }
+  .credentials-icons {
     margin: 10px !important;
   }
 }
 
 .tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+}
+.credentials-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;

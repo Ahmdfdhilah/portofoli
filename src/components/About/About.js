@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
+import Credentials from "./Credentials";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 
@@ -35,8 +36,12 @@ function About() {
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
-
         <Techstack />
+
+        <h1 className="project-heading">
+          My <strong className="purple">Credentials </strong>
+        </h1>
+        <Credentials />
       </Container>
     </Container>
   );

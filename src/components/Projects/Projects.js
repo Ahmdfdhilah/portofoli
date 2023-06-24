@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import porto from "../../Assets/Projects/porto.png";
 import gauss from "../../Assets/Projects/gauss.png";
 import ecommerce from "../../Assets/Projects/backend.png";
+import pyGame from "../../Assets/Projects/apocalypseDominator.png";
 
 function Projects() {
   return (
@@ -46,6 +47,15 @@ function Projects() {
               description="You can solve A system of linear equations by using gauss elimination algorithms"
               ghLink="https://github.com/Ahmdfdhilah/Gauss_Elim"
               demoLink="https://replit.com/@AhmadFadillah16/gausselim#main.py"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pyGame}
+              isBlog={false}
+              title="Apocalypse Dominator"
+              description="Apocalypse Dominator is a first-person game. This game is made using the Python and the Pygame library"
+              ghLink="https://github.com/Ahmdfdhilah/tubes"
             />
           </Col>
         </Row>

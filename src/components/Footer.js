@@ -4,6 +4,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillLinkedin
 } from "react-icons/ai";
 
 function Footer() {
@@ -28,6 +29,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/ahmad-fadillah-b6648027b/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillLinkedin />
               </a>
             </li>
             <li className="social-icons">
