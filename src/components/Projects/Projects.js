@@ -23,7 +23,7 @@ function Projects() {
             <ProjectCard
               imgPath={ecommerce}
               isBlog={false}
-              title="backend e-commerce with sql databases and litle bit of styling"
+              title="backend e-commerce with sql database"
               description="im using next js for building this website, the feature on this web is quite simple"
               ghLink="https://github.com/Ahmdfdhilah/backend__toko"
             />

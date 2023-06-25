@@ -44,9 +44,11 @@ function Home2() {
                 <b className="purple"> React.js</b>
               </i>
               <br />
-              <br/>
-              For Mobile development I am using 
-              <b className="purple"> Kotlin </b>
+              <br />
+              For Mobile development I am using
+              <i>
+                <b className="purple"> Kotlin </b>
+              </i>
             </p>
           </Col>
         </Row>
@@ -74,7 +76,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillLinkedin/>
+                  <AiFillLinkedin />
                 </a>
               </li>
               <li className="social-icons">
