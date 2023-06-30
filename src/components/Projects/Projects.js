@@ -6,6 +6,7 @@ import porto from "../../Assets/Projects/porto.png";
 import gauss from "../../Assets/Projects/gauss.png";
 import ecommerce from "../../Assets/Projects/backend.png";
 import pyGame from "../../Assets/Projects/apocalypseDominator.png";
+import bookshelfApi from "../../Assets/Projects/bookshelfAPI.png";
 
 function Projects() {
   return (
@@ -56,6 +57,15 @@ function Projects() {
               title="Apocalypse Dominator"
               description="Apocalypse Dominator is a first-person game. This game is made using the Python and the Pygame library"
               ghLink="https://github.com/Ahmdfdhilah/tubes"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bookshelfApi}
+              isBlog={false}
+              title="Bookshelf API"
+              description="API that handles a CRUD requests about bookshelf using javascript and hapi framework"
+              ghLink="https://github.com/Ahmdfdhilah/bookshelf_API"
             />
           </Col>
         </Row>
