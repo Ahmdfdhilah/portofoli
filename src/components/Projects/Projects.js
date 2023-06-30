@@ -46,7 +46,7 @@ function Projects() {
               isBlog={false}
               title="Gauss Eleminations Calculator"
               description="You can solve A system of linear equations by using gauss elimination algorithms"
-              ghLink="https://github.com/Ahmdfdhilah/Gauss_Elim"
+              ghLink="https://github.com/Ahmdfdhilah/Gauss__Elim"
               demoLink="https://replit.com/@AhmadFadillah16/gausselim#main.py"
             />
           </Col>
