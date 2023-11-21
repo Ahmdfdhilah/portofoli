@@ -7,6 +7,9 @@ import gauss from "../../Assets/Projects/gauss.png";
 import ecommerce from "../../Assets/Projects/backend.png";
 import pyGame from "../../Assets/Projects/apocalypseDominator.png";
 import bookshelfApi from "../../Assets/Projects/bookshelfAPI.png";
+import webSekolah from "../../Assets/Projects/websekolah.png";
+import pemira from "../../Assets/Projects/pemira.png";
+
 
 function Projects() {
   return (
@@ -20,6 +23,15 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={webSekolah}
+              isBlog={false}
+              title="Website Sekolah SMP YPI 1 Braja Selebah Lampung Timur"
+              description="im building this project using laravel and tailwind, this include the CMS for admin using voyager"
+              ghLink="https://github.com/Ahmdfdhilah/kapsel"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ecommerce}
@@ -57,6 +69,15 @@ function Projects() {
               title="Apocalypse Dominator"
               description="Apocalypse Dominator is a first-person game. This game is made using the Python and the Pygame library"
               ghLink="https://github.com/Ahmdfdhilah/tubes"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pemira}
+              isBlog={false}
+              title="Profile Web Pemilihan Umum Raya ITERA"
+              description="Project Website of PEMIRA developed by Voting Staff, i am one of them "
+              ghLink="https://github.com/PemiraITERA/Pemira2023"
             />
           </Col>
           <Col md={4} className="project-card">

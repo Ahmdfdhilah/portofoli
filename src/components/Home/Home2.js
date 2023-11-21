@@ -21,7 +21,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> C++, PHP, Javascript and Python. </b>
               </i>
               <br />
               <br />
@@ -36,12 +36,12 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern Javascript and PHP Library and Frameworks
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple"> React.js, Next.js, Laravel</b>
               </i>
               <br />
               <br />

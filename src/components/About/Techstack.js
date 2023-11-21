@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+import { FaLaravel,  FaPhp } from "react-icons/fa";
 import {
   DiJavascript1,
   DiReact,
@@ -14,7 +15,8 @@ import {
   SiVisualstudiocode,
   SiNextdotjs,
   SiAmazonaws,
-  SiKotlin
+  SiKotlin,
+  SiTailwindcss 
 } from "react-icons/si";
 function Techstack() {
   return (
@@ -39,6 +41,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiKotlin/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaPhp/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaLaravel/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
