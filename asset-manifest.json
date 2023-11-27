@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portofoli/static/css/main.bc3d8a8a.css",
-    "main.js": "/portofoli/static/js/main.b25f5376.js",
+    "main.css": "/portofoli/static/css/main.da29a2f3.css",
+    "main.js": "/portofoli/static/js/main.c26f9d33.js",
     "static/js/787.d16e9580.chunk.js": "/portofoli/static/js/787.d16e9580.chunk.js",
     "static/media/apocalypseDominator.png": "/portofoli/static/media/apocalypseDominator.2a265e22733372a7216b.png",
     "static/media/websekolah.png": "/portofoli/static/media/websekolah.f10a3ab1825164deae49.png",
@@ -17,12 +17,12 @@
     "static/media/home-bg.jpg": "/portofoli/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/pre.svg": "/portofoli/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portofoli/index.html",
-    "main.bc3d8a8a.css.map": "/portofoli/static/css/main.bc3d8a8a.css.map",
-    "main.b25f5376.js.map": "/portofoli/static/js/main.b25f5376.js.map",
+    "main.da29a2f3.css.map": "/portofoli/static/css/main.da29a2f3.css.map",
+    "main.c26f9d33.js.map": "/portofoli/static/js/main.c26f9d33.js.map",
     "787.d16e9580.chunk.js.map": "/portofoli/static/js/787.d16e9580.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc3d8a8a.css",
-    "static/js/main.b25f5376.js"
+    "static/css/main.da29a2f3.css",
+    "static/js/main.c26f9d33.js"
   ]
 }
