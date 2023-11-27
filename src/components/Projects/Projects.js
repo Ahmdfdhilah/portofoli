@@ -78,6 +78,7 @@ function Projects() {
               title="Profile Web Pemilihan Umum Raya ITERA"
               description="Project Website of PEMIRA developed by Voting Staff, i am one of them "
               ghLink="https://github.com/PemiraITERA/Pemira2023"
+              demoLink="https://pemirakmitera.my.id/"
             />
           </Col>
           <Col md={4} className="project-card">
