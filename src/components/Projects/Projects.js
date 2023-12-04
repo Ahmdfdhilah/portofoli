@@ -30,6 +30,7 @@ function Projects() {
               title="Website Sekolah SMP YPI 1 Braja Selebah Lampung Timur"
               description="im building this project using laravel and tailwind, this include the CMS for admin using voyager"
               ghLink="https://github.com/Ahmdfdhilah/kapsel"
+              demoLink="https://smpypi1brajaselebah.sch.id"
             />
           </Col>
           <Col md={4} className="project-card">
