@@ -3,6 +3,8 @@ import { Col, Row } from "react-bootstrap";
 import aws from "../../Assets/credentials/aws.png";
 import js from "../../Assets/credentials/javascript.png";
 import backend from "../../Assets/credentials/backend.png";
+import kotlin from "../../Assets/credentials/kotlin.png";
+import ai from "../../Assets/credentials/aifunda.png";
 
 function Credentials() {
   return (
@@ -35,6 +37,26 @@ function Credentials() {
           rel="noopener noreferrer">
           <img src={backend}></img>
           <p>Belajar Membuat Aplikasi Back-End untuk Pemula</p>
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="credentials-icons">
+        <a
+          href="https://www.dicoding.com/certificates/ERZR146RMZYV"
+          style={{ color: "white", textDecoration:"none" }}
+          target="_blank"
+          rel="noopener noreferrer">
+          <img src={kotlin}></img>
+          <p>Memulai Pemrograman dengan Kotlin</p>
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="credentials-icons">
+        <a
+          href="#"
+          style={{ color: "white", textDecoration:"none" }}
+          target="_blank"
+          rel="noopener noreferrer">
+          <img src={ai}></img>
+          <p>Azure AI Fundamental</p>
         </a>
       </Col>
     </Row>
