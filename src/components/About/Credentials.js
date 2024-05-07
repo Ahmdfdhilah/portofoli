@@ -51,7 +51,7 @@ function Credentials() {
       </Col>
       <Col xs={4} md={2} className="credentials-icons">
         <a
-          href=""
+          href="https://www.credly.com/badges/8979e7fa-da63-41fc-b480-fb7112c2eda0/linked_in_profile"
           style={{ color: "white", textDecoration:"none" }}
           target="_blank"
           rel="noopener noreferrer">
