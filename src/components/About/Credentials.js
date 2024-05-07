@@ -51,7 +51,7 @@ function Credentials() {
       </Col>
       <Col xs={4} md={2} className="credentials-icons">
         <a
-          href="#"
+          href=""
           style={{ color: "white", textDecoration:"none" }}
           target="_blank"
           rel="noopener noreferrer">
