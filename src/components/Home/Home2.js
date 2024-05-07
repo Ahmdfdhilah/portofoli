@@ -12,47 +12,6 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              I'D LIKE TO <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              I am a college student majors in informatics engineering
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, PHP, Javascript and Python. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's is&nbsp;
-              <i>
-                <b className="purple">Web Developer And Mobile Apps</b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing websites
-              with <b className="purple">Javascript</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript and PHP Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js, Next.js, Laravel</b>
-              </i>
-              <br />
-              <br />
-              For Mobile development I am using
-              <i>
-                <b className="purple"> Kotlin </b>
-              </i>
-            </p>
-          </Col>
-        </Row>
-        <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>

@@ -9,7 +9,7 @@ import pyGame from "../../Assets/Projects/apocalypseDominator.png";
 import bookshelfApi from "../../Assets/Projects/bookshelfAPI.png";
 import webSekolah from "../../Assets/Projects/websekolah.png";
 import pemira from "../../Assets/Projects/pemira.png";
-
+import kkn from "../../Assets/Projects/kkn.png";
 
 function Projects() {
   return (
@@ -28,7 +28,7 @@ function Projects() {
               imgPath={webSekolah}
               isBlog={false}
               title="Website Sekolah SMP YPI 1 Braja Selebah Lampung Timur"
-              description="im building this project using laravel and tailwind, this include the CMS for admin using voyager"
+              description="Profile Junior High School Website with an Admin Dashboard, im building this project using laravel and tailwind"
               ghLink="https://github.com/Ahmdfdhilah/kapsel"
               demoLink="https://smpypi1brajaselebah.sch.id"
             />
@@ -77,7 +77,7 @@ function Projects() {
               imgPath={pemira}
               isBlog={false}
               title="Profile Web Pemilihan Umum Raya ITERA"
-              description="Project Website of PEMIRA developed by Voting Staff, i am one of them "
+              description="Project Website of PEMIRA developed by Voting Staff"
               ghLink="https://github.com/PemiraITERA/Pemira2023"
               demoLink="https://pemirakmitera.my.id/"
             />
@@ -89,6 +89,16 @@ function Projects() {
               title="Bookshelf API"
               description="API that handles a CRUD requests about bookshelf using javascript and hapi framework"
               ghLink="https://github.com/Ahmdfdhilah/bookshelf_API"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kkn}
+              isBlog={false}
+              title="Green Website Sri Sawahan"
+              description="Website that explains Sri Sawahan village, contains plant data and the distribution of green maps in the village, build in next js"
+              ghLink="https://github.com/Ahmdfdhilah/kkn_srisawahan"
+              demoLink="https://kkn-itera-90.vercel.app/"
             />
           </Col>
         </Row>
