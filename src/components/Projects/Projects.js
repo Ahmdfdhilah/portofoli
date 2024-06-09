@@ -6,7 +6,8 @@ import porto from "../../Assets/Projects/porto.png";
 import gauss from "../../Assets/Projects/gauss.png";
 import ecommerce from "../../Assets/Projects/backend.png";
 import pyGame from "../../Assets/Projects/apocalypseDominator.png";
-import bookshelfApi from "../../Assets/Projects/bookshelfAPI.png";
+import gadget from "../../Assets/Projects/gadget.png";
+import approval from "../../Assets/Projects/approval.png";
 import webSekolah from "../../Assets/Projects/websekolah.png";
 import pemira from "../../Assets/Projects/pemira.png";
 import kkn from "../../Assets/Projects/kkn.png";
@@ -23,23 +24,23 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={webSekolah}
               isBlog={false}
-              title="Website Sekolah SMP YPI 1 Braja Selebah Lampung Timur"
-              description="Profile Junior High School Website with an Admin Dashboard, im building this project using laravel and tailwind"
+              title="SMP ISLAM YPI 1 BRAJA SELEBAH WEBSITE"
+              description="Developed a dynamic website for SMP YPI 1 Braja Selebah utilizing Laravel framework, complete with an intuitive admin dashboard. The platform facilitates seamless management of school-related tasks, including student records, academic resources, and enhancing efficiency and accessibility for administrators, teachers, and students alike.Leading and orginazing project SMP ISLAM YPI 1 BRAJA SELEBAH school information system"
               ghLink="https://github.com/Ahmdfdhilah/kapsel"
               demoLink="https://smpypi1brajaselebah.sch.id"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ecommerce}
+              imgPath={gadget}
               isBlog={false}
-              title="backend e-commerce with sql database"
-              description="im using next js for building this website, the feature on this web is quite simple"
-              ghLink="https://github.com/Ahmdfdhilah/backend__toko"
+              title="backend gadget store"
+              description="Developed a full-stack e-commerce store system to manage and optimize online retail operations, integrating modern technologies to ensure scalability, security, and efficiency. The backend was built using NestJS, with MySQL as the database, Redis for caching, and Docker for environment management. JWT was used for  authentication, and Midtrans for payment gateway. The frontend was developed using React.js, and RajaOngkir was integrated for shipping calculations and logistics."
+              ghLink="https://github.com/Ahmdfdhilah/backend-store"
             />
           </Col>
 
@@ -48,7 +49,7 @@ function Projects() {
               imgPath={porto}
               isBlog={false}
               title="Personal Portofolio Website"
-              description="My own personal portofolio website, created with react js"
+              description="Crafted a Personal Portfolio Website using React.js, showcasing a blend of creativity and technical expertise. Implemented responsive design principles to ensure optimal viewing experiences across devices. Leveraged React's component-based architecture to streamline development and enhance maintainability. Incorporated interactive elements and animations to engage visitors and highlight projects and skills effectively. Resulted in a dynamic and professional online presence, demonstrating proficiency in both web development and React.js framework."
               ghLink="https://github.com/Ahmdfdhilah/portofoli"
               demoLink="https://ahmdfdhilah.github.io/portofoli/"
             />
@@ -58,7 +59,7 @@ function Projects() {
               imgPath={gauss}
               isBlog={false}
               title="Gauss Eleminations Calculator"
-              description="You can solve A system of linear equations by using gauss elimination algorithms"
+              description="A powerful tool for solving systems of linear equations using the Gauss elimination algorithm. This calculator simplifies the process of finding solutions by transforming the system into an upper triangular matrix and then performing back substitution. The application is designed to handle various types of linear equations and provides detailed step-by-step solutions, making it an excellent resource for students and professionals alike."
               ghLink="https://github.com/Ahmdfdhilah/Gauss__Elim"
               demoLink="https://replit.com/@AhmadFadillah16/gausselim#main.py"
             />
@@ -68,7 +69,7 @@ function Projects() {
               imgPath={pyGame}
               isBlog={false}
               title="Apocalypse Dominator"
-              description="Apocalypse Dominator is a first-person game. This game is made using the Python and the Pygame library"
+              description="Apocalypse Dominator is an immersive first-person game set in a post-apocalyptic world, where players must navigate through a desolate landscape, battling enemies, and overcoming various challenges to survive. This game is developed using Python and the Pygame library, providing a rich and engaging experience."
               ghLink="https://github.com/Ahmdfdhilah/tubes"
             />
           </Col>
@@ -77,18 +78,9 @@ function Projects() {
               imgPath={pemira}
               isBlog={false}
               title="Profile Web Pemilihan Umum Raya ITERA"
-              description="Project Website of PEMIRA developed by Voting Staff"
+              description="Profile Web Pemilihan Umum Raya (PEMIRA) ITERA is a comprehensive website developed to manage and showcase the election process at Institut Teknologi Sumatera (ITERA). This project is built by the Voting Staff to provide transparent and efficient handling of the election events, ensuring fair and accessible participation for all students."
               ghLink="https://github.com/PemiraITERA/Pemira2023"
               demoLink="https://pemirakmitera.my.id/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bookshelfApi}
-              isBlog={false}
-              title="Bookshelf API"
-              description="API that handles a CRUD requests about bookshelf using javascript and hapi framework"
-              ghLink="https://github.com/Ahmdfdhilah/bookshelf_API"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -99,6 +91,15 @@ function Projects() {
               description="Website that explains Sri Sawahan village, contains plant data and the distribution of green maps in the village, build in next js"
               ghLink="https://github.com/Ahmdfdhilah/kkn_srisawahan"
               demoLink="https://kkn-itera-90.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={approval}
+              isBlog={false}
+              title="Distributed Approval System"
+              description="Developed a cloud-based approval system with modern design UI, that automates the approval process for various internal requests within a company, such as purchase requests, leave applications, or budget requests.Using Power Apps, Power Automate, Sharepoints."
+              demoLink="https://apps.powerapps.com/play/e/default-d7b95ec4-9a7f-4260-b2e3-eb53f0ac8401/a/63c32fdc-ce5e-4e85-8f77-2b9dd19f9745?tenantId=d7b95ec4-9a7f-4260-b2e3-eb53f0ac8401&sourcetime=1717948051360&source=portal"
             />
           </Col>
         </Row>

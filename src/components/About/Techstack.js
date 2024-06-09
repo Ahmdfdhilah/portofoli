@@ -20,7 +20,10 @@ import {
   SiPowerbi,
   SiJira,
   SiDocker,
-  SiFigma
+  SiFigma,
+  SiJsonwebtokens, 
+  SiRedis,
+  SiNestjs
 } from "react-icons/si";
 function Techstack() {
   return (
@@ -81,6 +84,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFigma />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJsonwebtokens />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNestjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedis />
       </Col>
 
     </Row>
