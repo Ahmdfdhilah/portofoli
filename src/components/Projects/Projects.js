@@ -38,7 +38,7 @@ function Projects() {
             <ProjectCard
               imgPath={gadget}
               isBlog={false}
-              title="backend gadget store"
+              title="Gadget Store"
               description="Developed a full-stack e-commerce store system to manage and optimize online retail operations, integrating modern technologies to ensure scalability, security, and efficiency. The backend was built using NestJS, with MySQL as the database, Redis for caching, and Docker for environment management. JWT was used for  authentication, and Midtrans for payment gateway. The frontend was developed using React.js, and RajaOngkir was integrated for shipping calculations and logistics."
               ghLink="https://github.com/Ahmdfdhilah/backend-store"
             />
