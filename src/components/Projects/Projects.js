@@ -4,7 +4,6 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import porto from "../../Assets/Projects/porto.png";
 import gauss from "../../Assets/Projects/gauss.png";
-import ecommerce from "../../Assets/Projects/backend.png";
 import pyGame from "../../Assets/Projects/apocalypseDominator.png";
 import gadget from "../../Assets/Projects/gadget.png";
 import approval from "../../Assets/Projects/approval.png";
@@ -40,7 +39,7 @@ function Projects() {
               isBlog={false}
               title="Gadget Store"
               description="Developed a full-stack e-commerce store system to manage and optimize online retail operations, integrating modern technologies to ensure scalability, security, and efficiency. The backend was built using NestJS, with MySQL as the database, Redis for caching, and Docker for environment management. JWT was used for  authentication, and Midtrans for payment gateway. The frontend was developed using React.js, and RajaOngkir was integrated for shipping calculations and logistics."
-              ghLink="https://github.com/Ahmdfdhilah/backend-store"
+              ghLink="https://github.com/Ahmdfdhilah/gadget_store"
             />
           </Col>
 
