@@ -99,6 +99,7 @@ function Projects() {
               title="Distributed Approval System"
               description="Developed a cloud-based approval system with modern design UI, that automates the approval process for various internal requests within a company, such as purchase requests, leave applications, or budget requests.Using Power Apps, Power Automate, Sharepoints."
               demoLink="https://apps.powerapps.com/play/e/default-d7b95ec4-9a7f-4260-b2e3-eb53f0ac8401/a/63c32fdc-ce5e-4e85-8f77-2b9dd19f9745?tenantId=d7b95ec4-9a7f-4260-b2e3-eb53f0ac8401&sourcetime=1717948051360&source=portal"
+              ghLink="https://github.com/Ahmdfdhilah/cryptonexa"
             />
           </Col>
         </Row>
