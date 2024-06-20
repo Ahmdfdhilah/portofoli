@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portofoli/static/css/main.da29a2f3.css",
-    "main.js": "/portofoli/static/js/main.741efae4.js",
+    "main.js": "/portofoli/static/js/main.9fba8a77.js",
     "static/js/787.5c0b2d12.chunk.js": "/portofoli/static/js/787.5c0b2d12.chunk.js",
     "static/media/apocalypseDominator.png": "/portofoli/static/media/apocalypseDominator.2a265e22733372a7216b.png",
     "static/media/websekolah.png": "/portofoli/static/media/websekolah.f10a3ab1825164deae49.png",
@@ -23,11 +23,11 @@
     "static/media/pre.svg": "/portofoli/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portofoli/index.html",
     "main.da29a2f3.css.map": "/portofoli/static/css/main.da29a2f3.css.map",
-    "main.741efae4.js.map": "/portofoli/static/js/main.741efae4.js.map",
+    "main.9fba8a77.js.map": "/portofoli/static/js/main.9fba8a77.js.map",
     "787.5c0b2d12.chunk.js.map": "/portofoli/static/js/787.5c0b2d12.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da29a2f3.css",
-    "static/js/main.741efae4.js"
+    "static/js/main.9fba8a77.js"
   ]
 }
