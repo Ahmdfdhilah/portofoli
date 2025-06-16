@@ -10,6 +10,8 @@ import approval from "../../Assets/Projects/approval.png";
 import webSekolah from "../../Assets/Projects/websekolah.png";
 import pemira from "../../Assets/Projects/pemira.png";
 import kkn from "../../Assets/Projects/kkn.png";
+import okoce from "../../Assets/Projects/okoce.png";
+import eParking from "../../Assets/Projects/keran.jpg";
 
 function Projects() {
   return (
@@ -23,6 +25,15 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eParking}
+              isBlog={false}
+              title="ITERA E-PARKING SYSTEM"
+              description="Developed a smart vehicle access control system integrating RFID and license plate recognition using Python (Pyramid), PostgreSQL, React TypeScript, Tailwind CSS, Redux, MQTT (Mosquitto), and Redis. Features multi-factor authentication using RFID cards, RFID stickers, and LPR with efficient IoT data transfer via MQTT protocol."
+              ghLink="https://github.com/Ahmdfdhilah/keran_kitera_mfa"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={webSekolah}
@@ -40,7 +51,18 @@ function Projects() {
               title="Gadget Store"
               description="Developed a full-stack e-commerce store system to manage and optimize online retail operations, integrating modern technologies to ensure scalability, security, and efficiency. The backend was built using NestJS, with MySQL as the database, Redis for caching, and Docker for environment management. JWT was used for  authentication, and Midtrans for payment gateway. The frontend was developed using React.js, and RajaOngkir was integrated for shipping calculations and logistics."
               ghLink="https://github.com/Ahmdfdhilah/gadget_store"
-              demoLink="https://trust-shop.my.id/"
+              demoLink="https://trust-ahmdfdhilahs-projects.vercel.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={okoce}
+              isBlog={false}
+              title="OK OCE net"
+              description="This project is a full-stack application built with NestJS for the backend and React for the frontend, and utilizes Docker for containerization. The backend leverages NestJS’s capabilities to create a scalable and maintainable server-side environment, while React delivers a dynamic and responsive user interface. Docker ensures consistent and isolated environments across development and production, simplifying deployment and enhancing scalability."
+              ghLink="https://github.com/Ahmdfdhilah/okocenet"
+              demoLink="https://okocenet.vercel.app/"
             />
           </Col>
 

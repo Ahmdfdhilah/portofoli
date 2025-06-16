@@ -23,7 +23,15 @@ import {
   SiFigma,
   SiJsonwebtokens, 
   SiRedis,
-  SiNestjs
+  SiNestjs,
+  SiPostgresql,
+  SiMongodb,
+  SiExpress,
+  SiFastapi,
+  SiPostman,
+  SiCanva,
+  SiGooglecloud,
+  SiTypescript
 } from "react-icons/si";
 function Techstack() {
   return (
@@ -93,6 +101,30 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiRedis />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFastapi />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostman />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCanva />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGooglecloud />
       </Col>
 
     </Row>

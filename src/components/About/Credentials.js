@@ -16,7 +16,7 @@ function Credentials() {
           style={{ color: "white", textDecoration:"none" }}
           target="_blank"
           rel="noopener noreferrer">
-          <img src={aws}></img>
+          <img src={aws} alt=""></img>
           <p>Cloud Practitioner Essentials</p>
         </a>
       </Col>
@@ -26,7 +26,7 @@ function Credentials() {
           style={{ color: "white", textDecoration:"none" }}
           target="_blank"
           rel="noopener noreferrer">
-          <img src={js}></img>
+          <img src={js} alt=""></img>
           <p>Dasar Pemprograman JavaScript</p>
         </a>
       </Col>
@@ -36,7 +36,7 @@ function Credentials() {
           style={{ color: "white", textDecoration:"none" }}
           target="_blank"
           rel="noopener noreferrer">
-          <img src={backend}></img>
+          <img src={backend} alt=""></img>
           <p>Belajar Membuat Aplikasi Back-End untuk Pemula</p>
         </a>
       </Col>
@@ -46,7 +46,7 @@ function Credentials() {
           style={{ color: "white", textDecoration:"none" }}
           target="_blank"
           rel="noopener noreferrer">
-          <img src={kotlin}></img>
+          <img src={kotlin} alt=""></img>
           <p>Memulai Pemrograman dengan Kotlin</p>
         </a>
       </Col>
@@ -56,7 +56,7 @@ function Credentials() {
           style={{ color: "white", textDecoration:"none" }}
           target="_blank"
           rel="noopener noreferrer">
-          <img src={ai}></img>
+          <img src={ai} alt=""></img>
           <p>Azure AI Fundamental</p>
         </a>
       </Col>
@@ -66,7 +66,7 @@ function Credentials() {
           style={{ color: "white", textDecoration:"none" }}
           target="_blank"
           rel="noopener noreferrer">
-          <img src={data}></img>
+          <img src={data} alt=""></img>
           <p>Azure Data Fundamental</p>
         </a>
       </Col>

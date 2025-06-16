@@ -597,3 +597,68 @@ button:focus {
     padding-top: 0 !important;
   }
 }
+
+/* --------- */
+/* Home Intro */
+/* --------- */
+
+.home-intro-section {
+  position: relative !important;
+  padding-top: 50px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+/* --------- */
+/* Home Highlights */
+/* --------- */
+
+.home-highlights-section {
+  position: relative !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+.highlight-card {
+  padding: 10px !important;
+}
+
+.highlight-card-view {
+  background-color: transparent !important;
+  border: 1.5px solid rgba(200, 137, 230, 0.4) !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 8px rgba(89, 4, 168, 0.15) !important;
+  transition: all 0.3s ease !important;
+  height: 100% !important;
+}
+
+.highlight-card-view:hover {
+  transform: translateY(-5px) !important;
+  border-color: rgba(200, 137, 230, 0.8) !important;
+  box-shadow: 0 8px 16px rgba(89, 4, 168, 0.25) !important;
+}
+
+/* --------- */
+/* Work Experience */
+/* --------- */
+
+.work-experience-section {
+  position: relative !important;
+  padding-top: 50px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+@media (max-width: 767px) {
+  .highlight-card {
+    margin-bottom: 20px !important;
+  }
+  
+  .home-intro-section {
+    padding-top: 30px !important;
+  }
+}

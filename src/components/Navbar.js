@@ -10,6 +10,8 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
+import { MdWork } from "react-icons/md";
+
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -76,6 +78,16 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/work-experience"
+                onClick={() => updateExpanded(false)}
+              >
+                <MdWork style={{ marginBottom: "2px" }} /> Experience
               </Nav.Link>
             </Nav.Item>
           </Nav>
