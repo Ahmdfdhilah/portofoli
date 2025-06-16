@@ -262,9 +262,6 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
@@ -606,7 +603,6 @@ button:focus {
   position: relative !important;
   padding-top: 50px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
   color: white !important;
 }
 
@@ -618,7 +614,6 @@ button:focus {
   position: relative !important;
   padding-top: 30px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
   color: white !important;
 }
 
@@ -649,8 +644,144 @@ button:focus {
   position: relative !important;
   padding-top: 50px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
   color: white !important;
+}
+
+/* --------- */
+/* Featured Projects */
+/* --------- */
+
+.featured-projects-section {
+  position: relative !important;
+  padding-top: 50px !important;
+  padding-bottom: 30px !important;
+  color: white !important;
+}
+
+.featured-project-card {
+  background-color: transparent !important;
+  border: 1.5px solid rgba(200, 137, 230, 0.4) !important;
+  border-radius: 10px !important;
+  transition: all 0.3s ease !important;
+  height: 100% !important;
+  overflow: hidden !important;
+}
+
+.featured-project-card:hover {
+  transform: translateY(-8px) !important;
+  border-color: rgba(200, 137, 230, 0.8) !important;
+  box-shadow: 0 10px 20px rgba(89, 4, 168, 0.3) !important;
+}
+
+.featured-project-card img {
+  height: 200px !important;
+  object-fit: cover !important;
+  transition: transform 0.3s ease !important;
+}
+
+.featured-project-card:hover img {
+  transform: scale(1.05) !important;
+}
+
+.featured-project-buttons {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+/* --------- */
+/* Skills Preview */
+/* --------- */
+
+.skills-preview-section {
+  position: relative !important;
+  padding-top: 50px !important;
+  padding-bottom: 30px !important;
+  color: white !important;
+}
+
+.skill-icon {
+  text-align: center !important;
+  margin-bottom: 20px !important;
+  transition: all 0.3s ease !important;
+}
+
+.skill-icon svg {
+  font-size: 3em !important;
+  color: #cd5ff8 !important;
+  margin-bottom: 8px !important;
+  transition: all 0.3s ease !important;
+}
+
+.skill-icon p {
+  color: white !important;
+  font-size: 0.9em !important;
+  margin: 0 !important;
+}
+
+.skill-icon:hover svg {
+  transform: scale(1.1) !important;
+  color: #c770f0 !important;
+}
+
+/* --------- */
+/* Latest News */
+/* --------- */
+
+.latest-news-section {
+  position: relative !important;
+  padding-top: 50px !important;
+  padding-bottom: 30px !important;
+  color: white !important;
+}
+
+.news-card {
+  padding: 10px !important;
+}
+
+.news-card-view {
+  background-color: transparent !important;
+  border: 1.5px solid rgba(200, 137, 230, 0.4) !important;
+  border-radius: 10px !important;
+  transition: all 0.3s ease !important;
+  height: 100% !important;
+  position: relative !important;
+}
+
+.news-card-view:hover {
+  transform: translateY(-5px) !important;
+  border-color: rgba(200, 137, 230, 0.8) !important;
+  box-shadow: 0 8px 16px rgba(89, 4, 168, 0.25) !important;
+}
+
+.news-icon {
+  display: flex !important;
+  justify-content: center !important;
+  margin-bottom: 10px !important;
+}
+
+.news-badge {
+  position: absolute !important;
+  top: 10px !important;
+  right: 10px !important;
+  font-size: 0.7em !important;
+}
+
+/* --------- */
+/* Quote Section */
+/* --------- */
+
+.quote-section {
+  position: relative !important;
+  padding-top: 50px !important;
+  padding-bottom: 30px !important;
+  color: white !important;
+}
+
+.quote-text {
+  border-left: 4px solid #cd5ff8 !important;
+  padding-left: 30px !important;
+  margin: 0 !important;
 }
 
 @media (max-width: 767px) {
@@ -660,5 +791,21 @@ button:focus {
   
   .home-intro-section {
     padding-top: 30px !important;
+  }
+  
+  .featured-project-card img {
+    height: 150px !important;
+  }
+  
+  .skill-icon svg {
+    font-size: 2.5em !important;
+  }
+  
+  .quote-text {
+    padding-left: 20px !important;
+  }
+  
+  .quote-text p {
+    font-size: 1.2em !important;
   }
 }

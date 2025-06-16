@@ -5,6 +5,10 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import HomeIntro from "./HomeIntro";
 import HomeHighlights from "./HomeHighlights";
+import FeaturedProjects from "./FeaturedProjects";
+import SkillsPreview from "./SkillsPreview";
+import LatestNews from "./LatestNews";
+import QuoteSection from "./QuoteSection";
 import Type from "./Type";
 
 function Home() {
@@ -46,6 +50,10 @@ function Home() {
       
       <HomeIntro />
       <HomeHighlights />
+      <FeaturedProjects />
+      <SkillsPreview />
+      <LatestNews />
+      <QuoteSection />
       <Home2 />
     </section>
   );
