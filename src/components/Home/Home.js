@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { motion } from "framer-motion";
 import homeLogo from "../../Assets/image.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
@@ -19,36 +20,43 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hello{" "} <span className="purple"> World!</span>
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-              </h1>
-
-              <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> AHMAD FADILLAH</strong>
-              </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div>
+              <motion.div
+                initial={{ opacity: 0, x: -60 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+              >
+                <h1 style={{ paddingBottom: 15 }} className="heading">
+                  Hello{" "}<span className="purple"> World!</span>
+                  <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
+                </h1>
+                <h1 className="heading-name">
+                  I'M
+                  <strong className="main-name"> AHMAD FADILLAH</strong>
+                </h1>
+                <div style={{ padding: 50, textAlign: "left" }}>
+                  <Type />
+                </div>
+              </motion.div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }} className="hero-image-col">
-              <div className="hero-image-wrapper">
+              <motion.div
+                className="hero-image-wrapper"
+                initial={{ opacity: 0, x: 60 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+              >
                 <img
                   src={homeLogo}
                   alt="home pic"
                   className="hero-image"
                 />
-              </div>
+              </motion.div>
             </Col>
           </Row>
         </Container>
       </Container>
-      
+
       <HomeIntro />
       <HomeHighlights />
       <FeaturedProjects />
