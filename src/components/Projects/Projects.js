@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import SEO from "../SEO";
 import { motion } from "framer-motion";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
@@ -11,6 +12,7 @@ import link from "../../Assets/Projects/link.png";
 import analytics from "../../Assets/Projects/analytics.png";
 import hris from "../../Assets/Projects/hris.png";
 import sielang from "../../Assets/Projects/sielang.png";
+import braja from "../../Assets/Projects/braja.png";
 
 const stagger = {
   hidden: {},
@@ -97,12 +99,26 @@ const projects = [
     demo: null,
     stack: "Python (Pyramid), PostgreSQL, React (TypeScript), Tailwind CSS, Redux, MQTT, Redis"
   },
+  {
+    img: braja,
+    title: "School Profile & CMS – SMP Braja Selebah",
+    desc: "Developed a comprehensive school profile website featuring a custom Content Management System (CMS) for managing school news, faculty data, academic documents, and student information. Designed to improve digital presence and streamline information distribution for students and parents.",
+    github: "https://github.com/Ahmdfdhilah",
+    demo: null,
+    stack: "Laravel, MySQL, Bootstrap, PHP"
+  },
   
 ];
 
 function Projects() {
   return (
     <Container fluid className="project-section">
+      <SEO
+        title="Projects"
+        description="Browse Ahmad Fadillah's portfolio of projects — including HRIS, School Profile & CMS, analytics platforms, QRIS competition systems, and more built with React, FastAPI, Go, and Laravel."
+        path="/project"
+        keywords="Ahmad Fadillah projects, HRIS, School Profile, Laravel CMS, analytics, QRIS, e-parking, FastAPI, React TypeScript, Go, microservices"
+      />
       <Particle />
       <Container>
         <motion.div

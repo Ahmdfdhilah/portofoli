@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import SEO from "../SEO";
 import { motion } from "framer-motion";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
@@ -14,6 +15,12 @@ const fadeUp = {
 function About() {
   return (
     <Container fluid className="about-section">
+      <SEO
+        title="About"
+        description="Learn about Ahmad Fadillah — his background, technical skills, and credentials. Proficient in React, TypeScript, FastAPI, Go, PostgreSQL, Docker, and more."
+        path="/about"
+        keywords="About Ahmad Fadillah, skills, techstack, credentials, React TypeScript FastAPI Go PostgreSQL Docker"
+      />
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>

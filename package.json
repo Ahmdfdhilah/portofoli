@@ -15,6 +15,7 @@
     "react-bootstrap": "^2.2.1",
     "react-dom": "^18.3.1",
     "react-github-calendar": "^3.2.2",
+    "react-helmet-async": "^3.0.0",
     "react-icons": "^4.3.1",
     "react-parallax-tilt": "^1.7.42",
     "react-pdf": "^5.7.1",

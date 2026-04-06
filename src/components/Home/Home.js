@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import SEO from "../SEO";
 import { motion } from "framer-motion";
 import homeLogo from "../../Assets/image.png";
 import Particle from "../Particle";
@@ -14,6 +15,12 @@ import Type from "./Type";
 function Home() {
   return (
     <section>
+      <SEO
+        title="Home"
+        description="Hi, I'm Ahmad Fadillah — a Software Engineer specializing in full-stack web development with React, FastAPI, Go, and cloud-native architectures."
+        path="/"
+        keywords="Ahmad Fadillah, Ahmdfdhilah, Software Engineer, Full Stack Developer, React, FastAPI, Go, Portfolio"
+      />
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">

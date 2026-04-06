@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { HelmetProvider } from "react-helmet-async";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
@@ -29,6 +30,7 @@ function App() {
   }, []);
 
   return (
+    <HelmetProvider>
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
@@ -44,6 +46,7 @@ function App() {
         <Footer />
       </div>
     </Router>
+    </HelmetProvider>
   );
 }
 

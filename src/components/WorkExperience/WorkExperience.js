@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import SEO from "../SEO";
 import { motion } from "framer-motion";
 import Particle from "../Particle";
 import WorkExperienceCard from "./WorkExperienceCard";
@@ -41,6 +42,12 @@ const experiences = [
 function WorkExperience() {
   return (
     <Container fluid className="work-experience-section">
+      <SEO
+        title="Work Experience"
+        description="Ahmad Fadillah's professional work experience — Software Engineer at Arga Bumi Indonesia, Intern at OKOCE Indonesia, and freelance web developer since 2022."
+        path="/work-experience"
+        keywords="Ahmad Fadillah work experience, Software Engineer, Arga Bumi Indonesia, OKOCE, freelance developer"
+      />
       <Particle />
       <Container>
         <motion.div
