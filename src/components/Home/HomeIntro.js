@@ -42,12 +42,7 @@ function HomeIntro() {
                   <strong className="purple">Go, Python, and TypeScript</strong>, complemented by real-world
                   projects across government and organizational platforms.
                   <br /><br />
-                  I've built systems for <strong className="purple">Kemenko Bidang Pangan RI</strong>,{" "}
-                  <strong className="purple">Kemendag RI</strong>, and{" "}
-                  <strong className="purple">Bank Indonesia</strong> ranging from archival management
-                  to QRIS competition platforms and performance evaluation workflows.
-                  <br /><br />
-                  My expertise spans <strong className="purple">microservices architecture</strong>,{" "}
+                  My expertise spans <strong className="purple">modular architecture</strong>,{" "}
                   <strong className="purple">SSO & HRIS systems</strong>, and delivering production-ready
                   solutions with Docker, RabbitMQ, Redis, and cloud infrastructure.
                 </p>

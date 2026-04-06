@@ -566,10 +566,10 @@ button:focus {
   padding-bottom: 50px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
-  height: auto !important;
 }
 .project-card img {
   height: 200px !important;
+  object-fit: cover !important;
 }
 .project-card-view {
   box-shadow: 0 4px 5px 3px var(--shadow-card) !important;
@@ -578,6 +578,24 @@ button:focus {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+.project-card-view .card-body {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 !important;
+}
+.project-card-view .card-title {
+  min-height: 2.8em !important;
+  line-height: 1.4 !important;
+}
+.project-card-view .card-desc-toggle {
+  margin-top: auto !important;
+  padding-top: 4px !important;
+}
+.project-card-view .card-buttons {
+  margin-top: 12px !important;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
@@ -768,6 +786,21 @@ button:focus {
   transition: all 0.3s ease !important;
   height: 100% !important;
   overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+.featured-project-card .card-body {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 !important;
+}
+.featured-project-card .card-title {
+  min-height: 2.8em !important;
+  line-height: 1.4 !important;
+}
+.featured-project-card .featured-project-buttons {
+  margin-top: auto !important;
+  padding-top: 12px !important;
 }
 
 .featured-project-card:hover {
@@ -911,4 +944,115 @@ button:focus {
   .quote-text p {
     font-size: 1.2em !important;
   }
+}
+
+/* --------- */
+/* Image Modal */
+/* --------- */
+
+.image-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.88);
+  backdrop-filter: blur(8px);
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  cursor: zoom-out;
+}
+
+.image-modal-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  cursor: default;
+}
+
+.image-modal-img {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  display: block;
+}
+
+.image-modal-close {
+  position: absolute;
+  top: -44px;
+  right: 0;
+  background: none;
+  border: none;
+  color: var(--foreground);
+  font-size: 1.8rem;
+  cursor: pointer;
+  padding: 4px;
+  line-height: 1;
+  transition: color 0.2s;
+}
+
+.image-modal-close:hover {
+  color: var(--primary);
+}
+
+.image-modal-caption {
+  text-align: center;
+  color: var(--foreground-muted);
+  font-size: 0.85em;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/* Description truncate */
+.card-desc-truncated {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+}
+
+.card-desc-toggle {
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  color: var(--primary) !important;
+  font-size: 0.85em !important;
+  cursor: pointer !important;
+  margin-top: 4px !important;
+  display: block !important;
+  text-align: left !important;
+  transition: color 0.2s !important;
+}
+
+.card-desc-toggle:hover {
+  color: var(--primary-hover) !important;
+  text-decoration: underline !important;
+}
+
+/* Clickable image wrapper */
+.project-img-trigger {
+  position: relative;
+  overflow: hidden;
+  cursor: zoom-in;
+}
+
+.project-img-trigger::after {
+  content: "⤢";
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.55);
+  color: var(--primary);
+  font-size: 1.1rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+.project-img-trigger:hover::after {
+  opacity: 1;
 }

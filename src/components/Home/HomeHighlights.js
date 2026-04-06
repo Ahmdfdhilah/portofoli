@@ -19,8 +19,8 @@ const fadeUp = {
 };
 
 const highlights = [
-  { icon: <AiOutlineCode size={40} className="purple" />, value: "4+", label: "Years Experience" },
-  { icon: <AiOutlineProject size={40} className="purple" />, value: "10+", label: "Projects Completed" },
+  { icon: <AiOutlineCode size={40} className="purple" />, value: "1+", label: "Years Experience" },
+  { icon: <AiOutlineProject size={40} className="purple" />, value: "5+", label: "Projects Completed" },
   { icon: <AiOutlineTrophy size={40} className="purple" />, value: "2nd", label: "Place Capstone" },
   { icon: <AiOutlineTeam size={40} className="purple" />, value: "3.72", label: "GPA Score" },
 ];

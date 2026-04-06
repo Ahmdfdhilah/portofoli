@@ -23,31 +23,7 @@ const fadeUp = {
 };
 
 const projects = [
-  {
-    img: jejama,
-    title: "JEJAMA QRIS Competition – Bank Indonesia",
-    desc: "Automated OCR validation system that processes QRIS transaction receipts with 95% accuracy, eliminating manual verification and enabling real-time competition scoring. Scalable microservices architecture using RabbitMQ async processing. Fraud detection with Redis-based duplicate prevention and authenticity checks.",
-    github: "https://github.com/Ahmdfdhilah",
-    demo: null,
-    stack: "Go (Fiber), PostgreSQL, JWT, React (TypeScript), RabbitMQ, Redis, GCS, OCR API, Tailwind CSS"
-  },
-  {
-    img: sielang,
-    title: "Performance Evaluation System – Kemendag RI",
-    desc: "Comprehensive evaluation workflow automation with automated surat tugas generation, meeting management, and questionnaire systems, streamlining government evaluation processes. Monorepo architecture using Turborepo with shared UI packages, enabling scalable development and consistent design across multiple evaluation modules.",
-    github: "https://github.com/Ahmdfdhilah",
-    demo: null,
-    stack: "Python (FastAPI), PostgreSQL, React (TypeScript), Turborepo, Redux Toolkit, Tailwind CSS, JWT"
-  },
-  {
-    img: placeholder,
-    title: "Archival Management System – Kemenko Bidang Pangan RI",
-    desc: "Developed a digital archival management system to centralize document storage, classification, and retrieval across departments. Implemented secure role-based access control to ensure document confidentiality and compliance with government data governance standards. Enabled fast search, structured categorization, and audit-ready document tracking.",
-    github: "https://github.com/Ahmdfdhilah",
-    demo: null,
-    stack: "Go, PostgreSQL, React (TypeScript), Tailwind CSS, JWT"
-  },
-  {
+   {
     img: hris,
     title: "HRIS – Arga Bumi Indonesia",
     desc: "Streamlined key HR functions including attendance, leave, payroll, and organizational management into a single, unified system. Enabled real-time attendance logging and background processing of emails, payroll, and notifications using Celery and RabbitMQ. Ensured production stability with Dockerized deployment, NGINX-based frontend delivery, Redis clustering, automated backups, and systemd service monitoring.",
@@ -79,14 +55,7 @@ const projects = [
     demo: null,
     stack: "FastAPI, PostgreSQL, React (TypeScript), Tailwind CSS, Redux Toolkit, Docker"
   },
-  {
-    img: eParking,
-    title: "E-PARKING SYSTEM – Sumatera Institute of Technology",
-    desc: "Improved vehicle access security through multi-factor authentication (RFID cards, RFID stickers, and license plate recognition), significantly reducing unauthorized entry attempts. Enhanced system scalability and responsiveness through modular backend architecture and efficient state management. Delivered a seamless and responsive user interface that streamlined on-site operations.",
-    github: "https://github.com/Ahmdfdhilah/keran_kitera_mfa",
-    demo: null,
-    stack: "Python (Pyramid), PostgreSQL, React (TypeScript), Tailwind CSS, Redux, MQTT, Redis"
-  },
+
   {
     img: pmArga,
     title: "Performance Management System – Arga Bumi Indonesia",
@@ -95,6 +64,40 @@ const projects = [
     demo: null,
     stack: "FastAPI, PostgreSQL, Redis, React (TypeScript), Tailwind CSS, Docker"
   },
+  {
+    img: jejama,
+    title: "JEJAMA QRIS Competition – Bank Indonesia",
+    desc: "Automated OCR validation system that processes QRIS transaction receipts with 95% accuracy, eliminating manual verification and enabling real-time competition scoring. Scalable microservices architecture using RabbitMQ async processing. Fraud detection with Redis-based duplicate prevention and authenticity checks.",
+    github: "https://github.com/Ahmdfdhilah",
+    demo: null,
+    stack: "Go (Fiber), PostgreSQL, JWT, React (TypeScript), RabbitMQ, Redis, GCS, OCR API, Tailwind CSS"
+  },
+  {
+    img: sielang,
+    title: "Performance Evaluation System – Kemendag RI",
+    desc: "Comprehensive evaluation workflow automation with automated surat tugas generation, meeting management, and questionnaire systems, streamlining government evaluation processes. Monorepo architecture using Turborepo with shared UI packages, enabling scalable development and consistent design across multiple evaluation modules.",
+    github: "https://github.com/Ahmdfdhilah",
+    demo: null,
+    stack: "Python (FastAPI), PostgreSQL, React (TypeScript), Turborepo, Redux Toolkit, Tailwind CSS, JWT"
+  },
+  {
+    img: placeholder,
+    title: "Archival Management System – Kemenko Bidang Pangan RI",
+    desc: "Developed a digital archival management system to centralize document storage, classification, and retrieval across departments. Implemented secure role-based access control to ensure document confidentiality and compliance with government data governance standards. Enabled fast search, structured categorization, and audit-ready document tracking.",
+    github: "https://github.com/Ahmdfdhilah",
+    demo: null,
+    stack: "Go, PostgreSQL, React (TypeScript), Tailwind CSS, JWT"
+  },
+ 
+  {
+    img: eParking,
+    title: "E-PARKING SYSTEM – Sumatera Institute of Technology",
+    desc: "Improved vehicle access security through multi-factor authentication (RFID cards, RFID stickers, and license plate recognition), significantly reducing unauthorized entry attempts. Enhanced system scalability and responsiveness through modular backend architecture and efficient state management. Delivered a seamless and responsive user interface that streamlined on-site operations.",
+    github: "https://github.com/Ahmdfdhilah/keran_kitera_mfa",
+    demo: null,
+    stack: "Python (Pyramid), PostgreSQL, React (TypeScript), Tailwind CSS, Redux, MQTT, Redis"
+  },
+  
 ];
 
 function Projects() {
@@ -124,7 +127,7 @@ function Projects() {
         >
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             {projects.map((p, i) => (
-              <Col md={4} className="project-card" key={i}>
+              <Col md={4} className="project-card d-flex" key={i}>
                 <motion.div variants={fadeUp}>
                   <ProjectCard
                     imgPath={p.img}

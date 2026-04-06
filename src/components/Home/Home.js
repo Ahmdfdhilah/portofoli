@@ -1,11 +1,10 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
 import homeLogo from "../../Assets/image.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import HomeIntro from "./HomeIntro";
-import HomeHighlights from "./HomeHighlights";
+// import HomeHighlights from "./HomeHighlights";
 import FeaturedProjects from "./FeaturedProjects";
 import SkillsPreview from "./SkillsPreview";
 import LatestNews from "./LatestNews";
@@ -58,7 +57,7 @@ function Home() {
       </Container>
 
       <HomeIntro />
-      <HomeHighlights />
+      {/* <HomeHighlights /> */}
       <FeaturedProjects />
       <SkillsPreview />
       <LatestNews />

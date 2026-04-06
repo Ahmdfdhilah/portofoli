@@ -18,7 +18,7 @@ const experiences = [
   {
     title: "Software Engineer",
     company: "Arga Bumi Indonesia",
-    period: "February 2025 – February 2026",
+    period: "February 2025 – Present",
     type: "Remote",
     description: "Architected and developed interconnected internal enterprise systems using a scalable microservices approach. Established Single Sign-On (SSO) as a unified access layer for all internal applications. Centralized employee data within HRIS as the single source of truth, enabling tight integration with Performance Management and other internal systems. Delivered end-to-end analytics dashboards that aggregate data from multiple systems to support executive-level decision making."
   },
