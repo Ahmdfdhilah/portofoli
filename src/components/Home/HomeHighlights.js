@@ -18,6 +18,13 @@ const fadeUp = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
 };
 
+const highlights = [
+  { icon: <AiOutlineCode size={40} className="purple" />, value: "4+", label: "Years Experience" },
+  { icon: <AiOutlineProject size={40} className="purple" />, value: "10+", label: "Projects Completed" },
+  { icon: <AiOutlineTrophy size={40} className="purple" />, value: "2nd", label: "Place Capstone" },
+  { icon: <AiOutlineTeam size={40} className="purple" />, value: "3.72", label: "GPA Score" },
+];
+
 function HomeHighlights() {
   return (
     <Container fluid className="home-highlights-section">
@@ -44,12 +51,7 @@ function HomeHighlights() {
           variants={stagger}
         >
           <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-            {[
-              { icon: <AiOutlineCode size={40} className="purple" />, value: "3+", label: "Years Experience" },
-              { icon: <AiOutlineProject size={40} className="purple" />, value: "15+", label: "Projects Completed" },
-              { icon: <AiOutlineTrophy size={40} className="purple" />, value: "2nd", label: "Place Capstone" },
-              { icon: <AiOutlineTeam size={40} className="purple" />, value: "3.72", label: "GPA Score" },
-            ].map((item, i) => (
+            {highlights.map((item, i) => (
               <Col xs={6} md={3} className="highlight-card" key={i}>
                 <motion.div variants={fadeUp}>
                   <Card className="highlight-card-view">

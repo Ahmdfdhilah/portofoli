@@ -16,24 +16,24 @@ const fadeUp = {
 const news = [
   {
     icon: <AiFillBuild size={30} className="purple" />,
-    badge: { bg: "success", text: "NEW" },
-    title: "Web Developer at Arga Bumi Indonesia",
-    desc: "Started new role developing scalable microservices with FastAPI and PostgreSQL",
-    date: "February 2025 - Present"
+    badge: { bg: "success", text: "ACTIVE" },
+    title: "Software Engineer at Arga Bumi Indonesia",
+    desc: "Architecting interconnected internal enterprise systems using microservices SSO, HRIS, Performance Management, and analytics dashboards.",
+    date: "February 2025 – Present"
   },
   {
     icon: <AiOutlineBook size={30} className="purple" />,
     badge: { bg: "primary", text: "PUBLISHED" },
     title: "Published Technical Book",
-    desc: 'Co-authored "Web Programming Basics: Python Pyramid & React.js Framework"',
+    desc: 'Co-authored "Dasar-Dasar Pemrograman Web: Dengan Kerangka Kerja Python Pyramid dan React JS" ISBN: 978-634-7013-04-0',
     date: "October 2024"
   },
   {
     icon: <AiOutlineTrophy size={30} className="purple" />,
     badge: { bg: "warning", text: "AWARD" },
     title: "2nd Place Capstone Project",
-    desc: 'Won 2nd place in MariBelajar Capstone Project Competition with "Automated Distributed Approvals System"',
-    date: "May - June 2024"
+    desc: 'Won 2nd place at MariBelajar Capstone Competition with "Automated Distributed Approvals System". Led a team of 4 over two months.',
+    date: "May – June 2024"
   }
 ];
 

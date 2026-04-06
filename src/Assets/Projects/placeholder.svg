@@ -1,0 +1,6 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#0d3b26"/>
+  <rect x="2" y="2" width="796" height="396" fill="none" stroke="#3ECF8E" stroke-width="2" stroke-dasharray="12,6" opacity="0.5"/>
+  <text x="400" y="185" font-size="52" fill="#3ECF8E" text-anchor="middle" dominant-baseline="middle" font-family="monospace" opacity="0.9">{"{ }"}</text>
+  <text x="400" y="245" font-size="18" fill="#7BBFA3" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif">Image Coming Soon</text>
+</svg>

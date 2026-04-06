@@ -1,9 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
-import { DiJavascript1, DiReact, DiNodejs, DiPython } from "react-icons/di";
-import { SiNextdotjs, SiNestjs, SiPostgresql, SiDocker, SiTailwindcss, SiTypescript, SiFastapi, SiRedis } from "react-icons/si";
+import { DiReact, DiPython, DiMysql } from "react-icons/di";
 import { FaLaravel } from "react-icons/fa";
+import {
+  SiGo, SiNextdotjs, SiNestjs, SiPostgresql, SiDocker,
+  SiTailwindcss, SiTypescript, SiFastapi, SiRedis,
+  SiRabbitmq, SiMongodb, SiGooglecloud
+} from "react-icons/si";
 
 const stagger = {
   hidden: {},
@@ -27,26 +31,29 @@ const groups = [
       { Icon: DiReact, name: "React" },
       { Icon: SiNextdotjs, name: "Next.js" },
       { Icon: SiTypescript, name: "TypeScript" },
-      { Icon: DiJavascript1, name: "JavaScript" },
       { Icon: SiTailwindcss, name: "Tailwind" },
     ]
   },
   {
     label: "Backend",
     icons: [
-      { Icon: DiNodejs, name: "Node.js" },
-      { Icon: SiNestjs, name: "NestJS" },
-      { Icon: DiPython, name: "Python" },
+      { Icon: SiGo, name: "Go" },
       { Icon: SiFastapi, name: "FastAPI" },
+      { Icon: SiNestjs, name: "NestJS" },
       { Icon: FaLaravel, name: "Laravel" },
+      { Icon: DiPython, name: "Python" },
     ]
   },
   {
-    label: "Database & Tools",
+    label: "Database & Infra",
     icons: [
       { Icon: SiPostgresql, name: "PostgreSQL" },
+      { Icon: DiMysql, name: "MySQL" },
+      { Icon: SiMongodb, name: "MongoDB" },
       { Icon: SiRedis, name: "Redis" },
+      { Icon: SiRabbitmq, name: "RabbitMQ" },
       { Icon: SiDocker, name: "Docker" },
+      { Icon: SiGooglecloud, name: "GCP" },
     ]
   }
 ];

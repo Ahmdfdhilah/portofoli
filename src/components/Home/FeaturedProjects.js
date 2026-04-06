@@ -3,9 +3,9 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { AiOutlineEye, AiOutlineGithub } from "react-icons/ai";
+import placeholder from "../../Assets/Projects/placeholder.svg";
+import jejama from "../../Assets/Projects/jejama.png";
 import eParking from "../../Assets/Projects/keran.jpg";
-import gadget from "../../Assets/Projects/gadget.png";
-import okoce from "../../Assets/Projects/okoce.png";
 
 const stagger = {
   hidden: {},
@@ -19,28 +19,28 @@ const fadeUp = {
 
 const projects = [
   {
-    img: eParking,
-    alt: "ITERA E-PARKING",
-    title: "ITERA E-PARKING SYSTEM",
-    desc: "Smart vehicle access control system with RFID and license plate recognition using Python, React, and IoT technologies.",
-    github: "https://github.com/Ahmdfdhilah/keran_kitera_mfa",
+    img: jejama,
+    alt: "JEJAMA QRIS",
+    title: "JEJAMA QRIS – Bank Indonesia",
+    desc: "Automated OCR validation system processing QRIS receipts with 95% accuracy. Scalable microservices with RabbitMQ async processing and Redis-based fraud detection.",
+    github: "https://github.com/Ahmdfdhilah",
     demo: null
   },
   {
-    img: gadget,
-    alt: "Gadget Store",
-    title: "GADGET STORE SYSTEM",
-    desc: "Full-stack e-commerce platform with NestJS backend, React frontend, and integrated payment system.",
-    github: "https://github.com/Ahmdfdhilah/gadget_store",
-    demo: "https://trust-ahmdfdhilahs-projects.vercel.app"
+    img: placeholder,
+    alt: "Archival Management System",
+    title: "Archival Management – Kemenko RI",
+    desc: "Digital archival system for centralized document storage, RBAC compliance, and audit-ready tracking for a government ministry.",
+    github: "https://github.com/Ahmdfdhilah",
+    demo: null
   },
   {
-    img: okoce,
-    alt: "OK OCE Net",
-    title: "OK OCE NET",
-    desc: "Full-stack application with NestJS backend migration and React frontend, containerized with Docker.",
-    github: "https://github.com/Ahmdfdhilah/okocenet",
-    demo: "https://okocenet.vercel.app/"
+    img: eParking,
+    alt: "E-Parking System",
+    title: "E-PARKING – ITERA",
+    desc: "Smart vehicle access control with RFID multi-factor authentication and license plate recognition using Python, MQTT, and IoT technologies.",
+    github: "https://github.com/Ahmdfdhilah/keran_kitera_mfa",
+    demo: null
   }
 ];
 

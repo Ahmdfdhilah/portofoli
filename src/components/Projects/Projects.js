@@ -1,18 +1,16 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import porto from "../../Assets/Projects/porto.png";
-import gauss from "../../Assets/Projects/gauss.png";
-import pyGame from "../../Assets/Projects/apocalypseDominator.png";
-import gadget from "../../Assets/Projects/gadget.png";
-import approval from "../../Assets/Projects/approval.png";
-import webSekolah from "../../Assets/Projects/websekolah.png";
-import pemira from "../../Assets/Projects/pemira.png";
-import kkn from "../../Assets/Projects/kkn.png";
-import okoce from "../../Assets/Projects/okoce.png";
+import placeholder from "../../Assets/Projects/placeholder.svg";
+import jejama from "../../Assets/Projects/jejama.png";
 import eParking from "../../Assets/Projects/keran.jpg";
+import pmArga from "../../Assets/Projects/pmArga.png";
+import argabumi from "../../Assets/Projects/argabumi.png";
+import link from "../../Assets/Projects/link.png";
+import analytics from "../../Assets/Projects/analytics.png";
+import hris from "../../Assets/Projects/hris.png";
+import sielang from "../../Assets/Projects/sielang.png";
 
 const stagger = {
   hidden: {},
@@ -25,16 +23,78 @@ const fadeUp = {
 };
 
 const projects = [
-  { img: eParking, title: "ITERA E-PARKING SYSTEM", desc: "Developed a smart vehicle access control system integrating RFID and license plate recognition using Python (Pyramid), PostgreSQL, React TypeScript, Tailwind CSS, Redux, MQTT (Mosquitto), and Redis. Features multi-factor authentication using RFID cards, RFID stickers, and LPR with efficient IoT data transfer via MQTT protocol.", github: "https://github.com/Ahmdfdhilah/keran_kitera_mfa", demo: null },
-  { img: webSekolah, title: "SMP ISLAM YPI 1 BRAJA SELEBAH WEBSITE", desc: "Developed a dynamic website for SMP YPI 1 Braja Selebah utilizing Laravel framework, complete with an intuitive admin dashboard. The platform facilitates seamless management of school-related tasks, including student records, academic resources, and enhancing efficiency and accessibility for administrators, teachers, and students alike.Leading and orginazing project SMP ISLAM YPI 1 BRAJA SELEBAH school information system", github: "https://github.com/Ahmdfdhilah/kapsel", demo: "https://smpypi1brajaselebah.sch.id" },
-  { img: gadget, title: "Gadget Store", desc: "Developed a full-stack e-commerce store system to manage and optimize online retail operations, integrating modern technologies to ensure scalability, security, and efficiency. The backend was built using NestJS, with MySQL as the database, Redis for caching, and Docker for environment management. JWT was used for authentication, and Midtrans for payment gateway. The frontend was developed using React.js, and RajaOngkir was integrated for shipping calculations and logistics.", github: "https://github.com/Ahmdfdhilah/gadget_store", demo: "https://trust-ahmdfdhilahs-projects.vercel.app" },
-  { img: okoce, title: "OK OCE net", desc: "This project is a full-stack application built with NestJS for the backend and React for the frontend, and utilizes Docker for containerization. The backend leverages NestJS's capabilities to create a scalable and maintainable server-side environment, while React delivers a dynamic and responsive user interface. Docker ensures consistent and isolated environments across development and production, simplifying deployment and enhancing scalability.", github: "https://github.com/Ahmdfdhilah/okocenet", demo: "https://okocenet.vercel.app/" },
-  { img: porto, title: "Personal Portofolio Website", desc: "Crafted a Personal Portfolio Website using React.js, showcasing a blend of creativity and technical expertise. Implemented responsive design principles to ensure optimal viewing experiences across devices. Leveraged React's component-based architecture to streamline development and enhance maintainability. Incorporated interactive elements and animations to engage visitors and highlight projects and skills effectively.", github: "https://github.com/Ahmdfdhilah/portofoli", demo: "https://ahmdfdhilah.github.io/portofoli/" },
-  { img: gauss, title: "Gauss Eleminations Calculator", desc: "A powerful tool for solving systems of linear equations using the Gauss elimination algorithm. This calculator simplifies the process of finding solutions by transforming the system into an upper triangular matrix and then performing back substitution. The application is designed to handle various types of linear equations and provides detailed step-by-step solutions, making it an excellent resource for students and professionals alike.", github: "https://github.com/Ahmdfdhilah/Gauss__Elim", demo: "https://replit.com/@AhmadFadillah16/gausselim#main.py" },
-  { img: pyGame, title: "Apocalypse Dominator", desc: "Apocalypse Dominator is an immersive first-person game set in a post-apocalyptic world, where players must navigate through a desolate landscape, battling enemies, and overcoming various challenges to survive. This game is developed using Python and the Pygame library, providing a rich and engaging experience.", github: "https://github.com/Ahmdfdhilah/tubes", demo: null },
-  { img: pemira, title: "Profile Web Pemilihan Umum Raya ITERA", desc: "Profile Web Pemilihan Umum Raya (PEMIRA) ITERA is a comprehensive website developed to manage and showcase the election process at Institut Teknologi Sumatera (ITERA). This project is built by the Voting Staff to provide transparent and efficient handling of the election events, ensuring fair and accessible participation for all students.", github: "https://github.com/PemiraITERA/Pemira2023", demo: "https://pemirakmitera.my.id/" },
-  { img: kkn, title: "Green Website Sri Sawahan", desc: "Website that explains Sri Sawahan village, contains plant data and the distribution of green maps in the village, build in next js", github: "https://github.com/Ahmdfdhilah/kkn_srisawahan", demo: "https://kkn-itera-90.vercel.app/" },
-  { img: approval, title: "Distributed Approval System", desc: "Developed a cloud-based approval system with modern design UI, that automates the approval process for various internal requests within a company, such as purchase requests, leave applications, or budget requests. Using Power Apps, Power Automate, Sharepoints.", github: "https://github.com/Ahmdfdhilah/cryptonexa", demo: "https://apps.powerapps.com/play/e/default-d7b95ec4-9a7f-4260-b2e3-eb53f0ac8401/a/63c32fdc-ce5e-4e85-8f77-2b9dd19f9745?tenantId=d7b95ec4-9a7f-4260-b2e3-eb53f0ac8401&sourcetime=1717948051360&source=portal" },
+  {
+    img: jejama,
+    title: "JEJAMA QRIS Competition – Bank Indonesia",
+    desc: "Automated OCR validation system that processes QRIS transaction receipts with 95% accuracy, eliminating manual verification and enabling real-time competition scoring. Scalable microservices architecture using RabbitMQ async processing. Fraud detection with Redis-based duplicate prevention and authenticity checks.",
+    github: "https://github.com/Ahmdfdhilah",
+    demo: null,
+    stack: "Go (Fiber), PostgreSQL, JWT, React (TypeScript), RabbitMQ, Redis, GCS, OCR API, Tailwind CSS"
+  },
+  {
+    img: sielang,
+    title: "Performance Evaluation System – Kemendag RI",
+    desc: "Comprehensive evaluation workflow automation with automated surat tugas generation, meeting management, and questionnaire systems, streamlining government evaluation processes. Monorepo architecture using Turborepo with shared UI packages, enabling scalable development and consistent design across multiple evaluation modules.",
+    github: "https://github.com/Ahmdfdhilah",
+    demo: null,
+    stack: "Python (FastAPI), PostgreSQL, React (TypeScript), Turborepo, Redux Toolkit, Tailwind CSS, JWT"
+  },
+  {
+    img: placeholder,
+    title: "Archival Management System – Kemenko Bidang Pangan RI",
+    desc: "Developed a digital archival management system to centralize document storage, classification, and retrieval across departments. Implemented secure role-based access control to ensure document confidentiality and compliance with government data governance standards. Enabled fast search, structured categorization, and audit-ready document tracking.",
+    github: "https://github.com/Ahmdfdhilah",
+    demo: null,
+    stack: "Go, PostgreSQL, React (TypeScript), Tailwind CSS, JWT"
+  },
+  {
+    img: hris,
+    title: "HRIS – Arga Bumi Indonesia",
+    desc: "Streamlined key HR functions including attendance, leave, payroll, and organizational management into a single, unified system. Enabled real-time attendance logging and background processing of emails, payroll, and notifications using Celery and RabbitMQ. Ensured production stability with Dockerized deployment, NGINX-based frontend delivery, Redis clustering, automated backups, and systemd service monitoring.",
+    github: "https://github.com/Ahmdfdhilah",
+    demo: null,
+    stack: "FastAPI, PostgreSQL, Redis, React (TypeScript), Tailwind, Celery, RabbitMQ, Docker"
+  },
+  {
+    img: argabumi,
+    title: "Company Profile – Arga Bumi Indonesia",
+    desc: "Corporate website for Arga Bumi Indonesia showcasing company services, portfolio, and organizational information. Built with a modern, responsive design and integrated with the internal SSO ecosystem for admin content management.",
+    github: "https://github.com/Ahmdfdhilah",
+    demo: null,
+    stack: "React (TypeScript), Tailwind CSS, FastAPI, PostgreSQL, Docker"
+  },
+  {
+    img: link,
+    title: "Arga Link – Arga Bumi Indonesia",
+    desc: "Internal file sharing and link management platform similar to Google Drive, featuring short link generation, file storage, access control, and shareable link expiry. Designed to centralize document distribution across the organization.",
+    github: "https://github.com/Ahmdfdhilah",
+    demo: null,
+    stack: "FastAPI, PostgreSQL, GCS, React (TypeScript), Tailwind CSS, Redis, Docker"
+  },
+  {
+    img: analytics,
+    title: "Arga Analytics – Arga Bumi Indonesia",
+    desc: "B2B analytics platform for a coffee agribusiness covering the full supply chain  procurement, inventory, warehouse, commercial sales, buyer analysis, global market pricing, farmer performance, finance, and HR attendance. Provides strategic cross-department insights with role-based access and master data management.",
+    github: "https://github.com/Ahmdfdhilah",
+    demo: null,
+    stack: "FastAPI, PostgreSQL, React (TypeScript), Tailwind CSS, Redux Toolkit, Docker"
+  },
+  {
+    img: eParking,
+    title: "E-PARKING SYSTEM – Sumatera Institute of Technology",
+    desc: "Improved vehicle access security through multi-factor authentication (RFID cards, RFID stickers, and license plate recognition), significantly reducing unauthorized entry attempts. Enhanced system scalability and responsiveness through modular backend architecture and efficient state management. Delivered a seamless and responsive user interface that streamlined on-site operations.",
+    github: "https://github.com/Ahmdfdhilah/keran_kitera_mfa",
+    demo: null,
+    stack: "Python (Pyramid), PostgreSQL, React (TypeScript), Tailwind CSS, Redux, MQTT, Redis"
+  },
+  {
+    img: pmArga,
+    title: "Performance Management System – Arga Bumi Indonesia",
+    desc: "Part of the interconnected internal enterprise ecosystem at Arga Bumi Indonesia. Architected as a microservice with SSO integration, enabling tight coupling with HRIS as single source of truth for employee data. Delivered executive-level analytics dashboards aggregating data across multiple systems.",
+    github: "https://github.com/Ahmdfdhilah",
+    demo: null,
+    stack: "FastAPI, PostgreSQL, Redis, React (TypeScript), Tailwind CSS, Docker"
+  },
 ];
 
 function Projects() {
@@ -70,7 +130,7 @@ function Projects() {
                     imgPath={p.img}
                     isBlog={false}
                     title={p.title}
-                    description={p.desc}
+                    description={`${p.desc}\n\nStack: ${p.stack}`}
                     ghLink={p.github}
                     demoLink={p.demo}
                   />

@@ -36,15 +36,20 @@ function HomeIntro() {
                 variants={fadeUp}
               >
                 <p style={{ textAlign: "justify", fontSize: "1.1em" }}>
-                  I'm an enthusiastic <strong className="purple">Informatics Engineering student</strong> passionate about building impactful digital solutions.
-                  With hands-on experience in <strong className="purple">full-stack development</strong>, I've led and contributed to various projects ranging from
-                  e-commerce platforms to enterprise systems.
+                  I'm a <strong className="purple">Software Engineer</strong> with hands-on experience
+                  building scalable internal systems and enterprise applications using modern web technologies.
+                  Strong background in full-stack development with{" "}
+                  <strong className="purple">Go, Python, and TypeScript</strong>, complemented by real-world
+                  projects across government and organizational platforms.
                   <br /><br />
-                  I enjoy solving real-world problems through <strong className="purple">clean architecture</strong>, scalable code, and user-focused design,
-                  while actively collaborating with teams to deliver meaningful outcomes.
+                  I've built systems for <strong className="purple">Kemenko Bidang Pangan RI</strong>,{" "}
+                  <strong className="purple">Kemendag RI</strong>, and{" "}
+                  <strong className="purple">Bank Indonesia</strong> ranging from archival management
+                  to QRIS competition platforms and performance evaluation workflows.
                   <br /><br />
-                  My field of interests include building <strong className="purple">Web Applications</strong>, <strong className="purple">AI/ML solutions</strong>,
-                  and exploring new technologies in <strong className="purple">Backend Development</strong>.
+                  My expertise spans <strong className="purple">microservices architecture</strong>,{" "}
+                  <strong className="purple">SSO & HRIS systems</strong>, and delivering production-ready
+                  solutions with Docker, RabbitMQ, Redis, and cloud infrastructure.
                 </p>
               </motion.blockquote>
 

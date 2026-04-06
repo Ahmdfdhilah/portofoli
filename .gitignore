@@ -31,3 +31,5 @@ Server/config.js
 
 ./claude
 .claude
+
+docs/*
