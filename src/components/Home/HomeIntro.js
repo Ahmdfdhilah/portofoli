@@ -34,9 +34,9 @@ function HomeIntro() {
                   to="/about" 
                   variant="primary" 
                   size="lg"
-                  style={{ 
-                    backgroundColor: "#623686", 
-                    borderColor: "#623686",
+                  style={{
+                    backgroundColor: "var(--primary-dark)",
+                    borderColor: "var(--primary-dark)",
                     padding: "10px 30px"
                   }}
                 >
@@ -50,9 +50,9 @@ function HomeIntro() {
                   target="_blank"
                   variant="outline-primary" 
                   size="lg"
-                  style={{ 
-                    borderColor: "#cd5ff8", 
-                    color: "#cd5ff8",
+                  style={{
+                    borderColor: "var(--accent-text)",
+                    color: "var(--accent-text)",
                     padding: "10px 30px"
                   }}
                 >

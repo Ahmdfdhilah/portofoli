@@ -24,13 +24,13 @@ function LatestNews() {
                   <AiFillBuild size={30} className="purple" />
                 </div>
                 <Badge bg="success" className="news-badge">NEW</Badge>
-                <Card.Title style={{ color: "#c770f0", fontSize: "1.1em", marginTop: "10px" }}>
+                <Card.Title style={{ color: "var(--primary)", fontSize: "1.1em", marginTop: "10px" }}>
                   Web Developer at Arga Bumi Indonesia
                 </Card.Title>
                 <Card.Text style={{ color: "white", fontSize: "0.9em" }}>
                   Started new role developing scalable microservices with FastAPI and PostgreSQL
                 </Card.Text>
-                <small style={{ color: "#fbd9ad" }}>February 2025 - Present</small>
+                <small style={{ color: "var(--accent-warm)" }}>February 2025 - Present</small>
               </Card.Body>
             </Card>
           </Col>
@@ -42,13 +42,13 @@ function LatestNews() {
                   <AiOutlineBook size={30} className="purple" />
                 </div>
                 <Badge bg="primary" className="news-badge">PUBLISHED</Badge>
-                <Card.Title style={{ color: "#c770f0", fontSize: "1.1em", marginTop: "10px" }}>
+                <Card.Title style={{ color: "var(--primary)", fontSize: "1.1em", marginTop: "10px" }}>
                   Published Technical Book
                 </Card.Title>
                 <Card.Text style={{ color: "white", fontSize: "0.9em" }}>
                   Co-authored "Web Programming Basics: Python Pyramid & React.js Framework"
                 </Card.Text>
-                <small style={{ color: "#fbd9ad" }}>October 2024</small>
+                <small style={{ color: "var(--accent-warm)" }}>October 2024</small>
               </Card.Body>
             </Card>
           </Col>
@@ -60,13 +60,13 @@ function LatestNews() {
                   <AiOutlineTrophy size={30} className="purple" />
                 </div>
                 <Badge bg="warning" className="news-badge">AWARD</Badge>
-                <Card.Title style={{ color: "#c770f0", fontSize: "1.1em", marginTop: "10px" }}>
+                <Card.Title style={{ color: "var(--primary)", fontSize: "1.1em", marginTop: "10px" }}>
                   2nd Place Capstone Project
                 </Card.Title>
                 <Card.Text style={{ color: "white", fontSize: "0.9em" }}>
                   Won 2nd place in MariBelajar Capstone Project Competition with "Automated Distributed Approvals System"
                 </Card.Text>
-                <small style={{ color: "#fbd9ad" }}>May - June 2024</small>
+                <small style={{ color: "var(--accent-warm)" }}>May - June 2024</small>
               </Card.Body>
             </Card>
           </Col>

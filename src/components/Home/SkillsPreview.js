@@ -35,7 +35,7 @@ function SkillsPreview() {
         
         <Row style={{ justifyContent: "center", paddingBottom: "20px" }}>
           <Col md={10}>
-            <h3 style={{ color: "#cd5ff8", textAlign: "center", marginBottom: "20px" }}>Frontend</h3>
+            <h3 style={{ color: "var(--accent-text)", textAlign: "center", marginBottom: "20px" }}>Frontend</h3>
             <Row style={{ justifyContent: "center" }}>
               <Col xs={3} md={2} className="skill-icon">
                 <DiReact />
@@ -63,7 +63,7 @@ function SkillsPreview() {
 
         <Row style={{ justifyContent: "center", paddingBottom: "20px" }}>
           <Col md={10}>
-            <h3 style={{ color: "#cd5ff8", textAlign: "center", marginBottom: "20px" }}>Backend</h3>
+            <h3 style={{ color: "var(--accent-text)", textAlign: "center", marginBottom: "20px" }}>Backend</h3>
             <Row style={{ justifyContent: "center" }}>
               <Col xs={3} md={2} className="skill-icon">
                 <DiNodejs />
@@ -91,7 +91,7 @@ function SkillsPreview() {
 
         <Row style={{ justifyContent: "center", paddingBottom: "40px" }}>
           <Col md={10}>
-            <h3 style={{ color: "#cd5ff8", textAlign: "center", marginBottom: "20px" }}>Database & Tools</h3>
+            <h3 style={{ color: "var(--accent-text)", textAlign: "center", marginBottom: "20px" }}>Database & Tools</h3>
             <Row style={{ justifyContent: "center" }}>
               <Col xs={3} md={2} className="skill-icon">
                 <SiPostgresql />

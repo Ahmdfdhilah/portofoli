@@ -24,7 +24,7 @@ function HomeHighlights() {
               <Card.Body style={{ textAlign: "center" }}>
                 <AiOutlineCode size={40} className="purple" />
                 <h3 style={{ color: "white", marginTop: "10px" }}>3+</h3>
-                <p style={{ color: "#cd5ff8" }}>Years Experience</p>
+                <p style={{ color: "var(--accent-text)" }}>Years Experience</p>
               </Card.Body>
             </Card>
           </Col>
@@ -33,7 +33,7 @@ function HomeHighlights() {
               <Card.Body style={{ textAlign: "center" }}>
                 <AiOutlineProject size={40} className="purple" />
                 <h3 style={{ color: "white", marginTop: "10px" }}>15+</h3>
-                <p style={{ color: "#cd5ff8" }}>Projects Completed</p>
+                <p style={{ color: "var(--accent-text)" }}>Projects Completed</p>
               </Card.Body>
             </Card>
           </Col>
@@ -42,7 +42,7 @@ function HomeHighlights() {
               <Card.Body style={{ textAlign: "center" }}>
                 <AiOutlineTrophy size={40} className="purple" />
                 <h3 style={{ color: "white", marginTop: "10px" }}>2nd</h3>
-                <p style={{ color: "#cd5ff8" }}>Place Capstone</p>
+                <p style={{ color: "var(--accent-text)" }}>Place Capstone</p>
               </Card.Body>
             </Card>
           </Col>
@@ -51,7 +51,7 @@ function HomeHighlights() {
               <Card.Body style={{ textAlign: "center" }}>
                 <AiOutlineTeam size={40} className="purple" />
                 <h3 style={{ color: "white", marginTop: "10px" }}>3.72</h3>
-                <p style={{ color: "#cd5ff8" }}>GPA Score</p>
+                <p style={{ color: "var(--accent-text)" }}>GPA Score</p>
               </Card.Body>
             </Card>
           </Col>

@@ -19,12 +19,12 @@ function QuoteSection() {
               }}>
                 "Clean code is not written by following a set of rules. You don't become a software craftsman by learning a list of heuristics. Professionalism and craftsmanship come from values that drive discipline."
               </p>
-              <footer style={{ color: "#cd5ff8", fontSize: "1.1em" }}>
+              <footer style={{ color: "var(--accent-text)", fontSize: "1.1em" }}>
                 — Robert C. Martin
               </footer>
             </blockquote>
             <div style={{ marginTop: "30px" }}>
-              <p style={{ color: "#fbd9ad", fontSize: "1.1em" }}>
+              <p style={{ color: "var(--accent-warm)", fontSize: "1.1em" }}>
                 My philosophy: <strong className="purple">Write code that tells a story</strong>
               </p>
             </div>
