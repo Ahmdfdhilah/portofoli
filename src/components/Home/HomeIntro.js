@@ -49,40 +49,34 @@ function HomeIntro() {
               </motion.blockquote>
 
               <motion.div variants={fadeUp}>
-                <Row style={{ justifyContent: "center", marginTop: "30px" }}>
-                  <Col md={6} style={{ textAlign: "center", marginBottom: "10px" }}>
-                    <Button
-                      as={Link}
-                      to="/about"
-                      variant="primary"
-                      size="lg"
-                      style={{
-                        backgroundColor: "var(--primary-dark)",
-                        borderColor: "var(--primary-dark)",
-                        padding: "10px 30px"
-                      }}
-                    >
-                      <AiOutlineUser style={{ marginRight: "8px" }} />
+                <div style={{ display: "flex", gap: "12px", flexWrap: "wrap", justifyContent: "center", marginTop: "30px" }}>
+                  <Button
+                    as={Link}
+                    to="/about"
+                    size="lg"
+                    className="hero-btn-primary"
+                    style={{ minWidth: "180px" }}
+                  >
+                    <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+                      <AiOutlineUser />
                       About Me
-                    </Button>
-                  </Col>
-                  <Col md={6} style={{ textAlign: "center", marginBottom: "10px" }}>
-                    <Button
-                      href="/CV_Ahmad Fadillah.pdf"
-                      target="_blank"
-                      variant="outline-primary"
-                      size="lg"
-                      style={{
-                        borderColor: "var(--accent-text)",
-                        color: "var(--accent-text)",
-                        padding: "10px 30px"
-                      }}
-                    >
-                      <AiOutlineDownload style={{ marginRight: "8px" }} />
+                    </span>
+                  </Button>
+
+                  <Button
+                    href={`${process.env.PUBLIC_URL}/CV_Ahmad Fadillah.pdf`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    size="lg"
+                    className="hero-btn-outline"
+                    style={{ minWidth: "180px" }}
+                  >
+                    <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+                      <AiOutlineDownload />
                       Download CV
-                    </Button>
-                  </Col>
-                </Row>
+                    </span>
+                  </Button>
+                </div>
               </motion.div>
             </motion.div>
           </Col>

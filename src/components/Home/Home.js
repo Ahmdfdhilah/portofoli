@@ -54,13 +54,13 @@ function Home() {
                   <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
                     <Button
                       as={Link}
-                      to="/project"
+                      to="/work-experience"
                       size="lg"
                       className="hero-btn-primary"
                     >
                       <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
                         <BsBriefcase />
-                        View Projects
+                        View Experience
                       </span>
                     </Button>
 
