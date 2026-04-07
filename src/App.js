@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
@@ -8,7 +8,7 @@ import Projects from "./components/Projects/Projects";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
 import Footer from "./components/Footer";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Route,
   Routes,
   Navigate
