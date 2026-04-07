@@ -5,9 +5,40 @@
         "dest": "/static/$1"
       },
       {
+        "src": "/favicon.ico",
+        "dest": "/favicon.ico"
+      },
+      {
+        "src": "/favicon-16x16.png",
+        "dest": "/favicon-16x16.png"
+      },
+      {
+        "src": "/favicon-32x32.png",
+        "dest": "/favicon-32x32.png"
+      },
+      {
+        "src": "/apple-touch-icon.png",
+        "dest": "/apple-touch-icon.png"
+      },
+      {
+        "src": "/android-chrome-192x192.png",
+        "dest": "/android-chrome-192x192.png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "dest": "/android-chrome-512x512.png"
+      },
+      {
+        "src": "/manifest.json",
+        "dest": "/manifest.json"
+      },
+      {
+        "src": "/robots.txt",
+        "dest": "/robots.txt"
+      },
+      {
         "src": "/(.*)",
         "dest": "/index.html"
       }
     ]
   }
-  
