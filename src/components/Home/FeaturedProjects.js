@@ -2,7 +2,7 @@ import  { useState } from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { AiOutlineEye, AiOutlineGithub } from "react-icons/ai";
+import { AiOutlineEye } from "react-icons/ai";
 import jejama from "../../Assets/Projects/jejama.png";
 import argabumi from "../../Assets/Projects/argabumi.png";
 import hris from "../../Assets/Projects/hris.png";
@@ -62,7 +62,7 @@ function FeaturedProjectCard({ p }) {
             {p.desc}
           </Card.Text>
           <div className="featured-project-buttons">
-            <Button
+            {/* <Button
               href={p.github}
               target="_blank"
               variant="outline-primary"
@@ -70,7 +70,7 @@ function FeaturedProjectCard({ p }) {
               style={{ marginRight: "10px", borderColor: "var(--accent-text)", color: "var(--accent-text)" }}
             >
               <AiOutlineGithub /> Code
-            </Button>
+            </Button> */}
             {p.demo && (
               <Button
                 href={p.demo}
