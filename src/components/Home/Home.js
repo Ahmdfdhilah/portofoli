@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import SEO from "../SEO";
 import { motion } from "framer-motion";
 import homeLogo from "../../Assets/image.png";
@@ -11,6 +11,9 @@ import SkillsPreview from "./SkillsPreview";
 import LatestNews from "./LatestNews";
 import QuoteSection from "./QuoteSection";
 import Type from "./Type";
+import { Link } from "react-router-dom";
+import { AiOutlineWhatsApp } from "react-icons/ai";
+import { BsBriefcase } from "react-icons/bs";
 
 function Home() {
   return (
@@ -39,9 +42,43 @@ function Home() {
                   I'M
                   <strong className="main-name"> AHMAD FADILLAH</strong>
                 </h1>
-                <div style={{ padding: 50, textAlign: "left" }}>
+                <div style={{ padding: "10px 45px 10px", textAlign: "left" }}>
                   <Type />
                 </div>
+                <motion.div
+                  className="hero-cta"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, ease: "easeOut", delay: 0.6 }}
+                >
+                  <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
+                    <Button
+                      as={Link}
+                      to="/project"
+                      size="lg"
+                      className="hero-btn-primary"
+                    >
+                      <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+                        <BsBriefcase />
+                        View Projects
+                      </span>
+                    </Button>
+
+                    <Button
+                      as="a"
+                      href="https://wa.me/6289647107815?text=Hi%20Ahmad%2C%20saya%20tertarik%20dengan%20jasa%20freelance%20Anda"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      size="lg"
+                      className="hero-btn-outline"
+                    >
+                      <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+                        <AiOutlineWhatsApp style={{ color: "#25D366" }} />
+                        WhatsApp Me
+                      </span>
+                    </Button>
+                  </div>
+                </motion.div>
               </motion.div>
             </Col>
 

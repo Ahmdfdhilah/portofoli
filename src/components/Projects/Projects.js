@@ -149,7 +149,8 @@ function Projects() {
                     imgPath={p.img}
                     isBlog={false}
                     title={p.title}
-                    description={`${p.desc}\n\nStack: ${p.stack}`}
+                    description={p.desc}
+                    stack={p.stack}
                     ghLink={p.github}
                     demoLink={p.demo}
                   />

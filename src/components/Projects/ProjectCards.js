@@ -9,6 +9,10 @@ function ProjectCards(props) {
   const [modalOpen, setModalOpen] = useState(false);
   const [expanded, setExpanded] = useState(false);
 
+  const stackItems = props.stack
+    ? props.stack.split(",").map((s) => s.trim()).filter(Boolean)
+    : [];
+
   return (
     <>
       <motion.div
@@ -34,6 +38,13 @@ function ProjectCards(props) {
             >
               {expanded ? "Lihat lebih sedikit ↑" : "Lihat lebih ↓"}
             </button>
+            {stackItems.length > 0 && (
+              <div className="card-stack-badges">
+                {stackItems.map((tech, i) => (
+                  <span key={i} className="card-stack-badge">{tech}</span>
+                ))}
+              </div>
+            )}
             <div className="card-buttons">
               {/* <Button variant="primary" href={props.ghLink} target="_blank">
                 <BsGithub /> &nbsp;
