@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { AiOutlineClose } from "react-icons/ai";
 
@@ -38,7 +38,6 @@ function ImageModal({ src, alt, isOpen, onClose }) {
               <AiOutlineClose />
             </button>
             <img src={src} alt={alt} className="image-modal-img" />
-            {alt && <p className="image-modal-caption">{alt}</p>}
           </motion.div>
         </motion.div>
       )}

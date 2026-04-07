@@ -36,10 +36,10 @@ function ProjectCards(props) {
               {expanded ? "Lihat lebih sedikit ↑" : "Lihat lebih ↓"}
             </button>
             <div className="card-buttons">
-              <Button variant="primary" href={props.ghLink} target="_blank">
+              {/* <Button variant="primary" href={props.ghLink} target="_blank">
                 <BsGithub /> &nbsp;
                 {props.isBlog ? "Blog" : "GitHub"}
-              </Button>
+              </Button> */}
               {!props.isBlog && props.demoLink && (
                 <Button
                   variant="primary"
