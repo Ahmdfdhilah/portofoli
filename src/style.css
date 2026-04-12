@@ -327,6 +327,11 @@ button:focus {
   color: var(--accent-text);
 }
 
+.type-wrapper {
+  padding: 10px 45px 10px;
+  text-align: left;
+}
+
 .hero-role {
   font-size: 1.1em;
   color: var(--foreground-muted);
@@ -374,13 +379,51 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+  .home-content {
+    padding: 5rem 0 1rem !important;
+  }
+  .home-header {
+    padding-top: 20px !important;
+    text-align: center !important;
+  }
+  .heading {
+    font-size: 1.8em !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    text-align: center !important;
+  }
+  .heading-name {
+    font-size: 1.9em !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    text-align: center !important;
+  }
+  .type-wrapper {
+    padding-bottom: 20px;
+  }
   .hero-role {
-    padding-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 1em;
+    text-align: center;
   }
   .hero-cta {
-    padding-left: 20px;
-    gap: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 10px;
+    justify-content: center;
+  }
+  .hero-btn-group {
+    flex-direction: column !important;
+    width: 100% !important;
+    align-items: stretch !important;
+  }
+  .hero-btn-primary,
+  .hero-btn-outline {
+    width: 100% !important;
+    justify-content: center !important;
+    padding: 12px 20px !important;
+    font-size: 1em !important;
   }
 }
 
@@ -460,12 +503,16 @@ button:focus {
 
 @media (max-width: 767px) {
   .hero-image {
-    width: 220px;
-    height: 260px;
+    width: 200px;
+    height: 230px;
   }
   .hero-image-col {
-    padding-top: 1em !important;
-    padding-bottom: 2em !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 1.5em !important;
+    order: -1;
+  }
+  .hero-image-wrapper {
+    padding: 4px;
   }
 }
 

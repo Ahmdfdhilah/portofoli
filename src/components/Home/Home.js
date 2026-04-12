@@ -42,7 +42,7 @@ function Home() {
                   I'M
                   <strong className="main-name"> AHMAD FADILLAH</strong>
                 </h1>
-                <div style={{ padding: "10px 45px 10px", textAlign: "left" }}>
+                <div className="type-wrapper">
                   <Type />
                 </div>
                 <motion.div
@@ -51,7 +51,7 @@ function Home() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, ease: "easeOut", delay: 0.6 }}
                 >
-                  <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
+                  <div className="hero-btn-group" style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
                     <Button
                       as={Link}
                       to="/work-experience"
